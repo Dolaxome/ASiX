@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="header-top">
+        <div class="header-icon">
+            <img src="images/image4.svg" alt="Account">
+        </div>
+        <div class="logo">
+            <img src="images/logo1.svg" alt="ASiX logo">
+        </div>
+        <div class="header-icons">
+            <div class="search">
+                <label class="search-icon">
+                    <img src="images/image11.svg" alt="Search">
+                </label>
+                <form class="search-form" action="#" method="get">
+                    <input
+                            type="search"
+                            name="q"
+                            placeholder="Search"
+                            aria-label="Search products"
+                    >
+                </form>
+            </div>
+            <img src="images/image3.svg" alt="Cart">
+        </div>
+    </div>
+
+    <nav class="navigation">
+        <a href="#">Jewelry</a>
+        <a href="#">Bags</a>
+        <a href="#">Tops</a>
+        <a href="#">Knitwear</a>
+        <a href="#">All</a>
+        <a href="#">Hoodies</a>
+        <a href="#">Bottom</a>
+        <a href="#">Accessories</a>
+        <a href="#">More+</a>
+    </nav>
+</header>
+
+<main class="cart-page">
+    <h1>My cart</h1>
+    <div class="cart-items">
+        <article class="cart-item">
+            <img src="images/jacket1.png" alt="Puffer Jacket">
+            <div class="cart-item-info">
+                <p class="cart-item-price">190 $</p>
+                <p class="cart-item-name">Puffer</p>
+                <p class="cart-item-details">Black | M | Qty 1</p>
+            </div>
+            <div class="cart-item-actions">
+                <button type="button" aria-label="Add to favorites">
+                    <img src="images/heart.svg" alt="Add to favorites">
+                </button>
+                <button type="button" aria-label="Remove item">
+                    <img src="images/crest.svg" alt="Remove item">
+                </button>
+            </div>
+        </article>
+        <hr>
+
+        <article class="cart-item">
+            <img src="images/gloves.png" alt="Gloves">
+            <div class="cart-item-info">
+                <p class="cart-item-price">190 $</p>
+                <p class="cart-item-name">Gloves</p>
+                <p class="cart-item-details">Imperial | M | Qty 1</p>
+            </div>
+            <div class="cart-item-actions">
+                <button type="button" aria-label="Add to favorites">
+                    <img src="images/heart.svg" alt="Add to favorites">
+                </button>
+                <button type="button" aria-label="Remove item">
+                    <img src="images/crest.svg" alt="Remove item">
+                </button>
+            </div>
+        </article>
+    </div>
+    <aside class="cart-summary">
+        <h2>Order total</h2>
+        <p>Quantity (2) <span>450 $</span></p>
+        <form>
+            <label>
+                Promocode
+                <input type="text" name="promo">
+            </label>
+        </form>
+        <p><strong>Total</strong> <strong>450 $</strong></p>
+        <button type="button">Delivery</button>
+    </aside>
+</main>
+
+<div class="login-modal">
+    <div class="login-window">
+        <div class="login-tabs">
+            <button class="active">SIGN IN</button>
+            <button>JOIN</button>
+        </div>
+        <form class="login-form">
+            <label>
+                EMAIL ADDRESS:
+                <input type="email" required>
+            </label>
+            <label>
+                PASSWORD:
+                <input type="password" required>
+            </label>
+            <button type="submit" class="login-btn">SIGN IN</button>
+            <a href="#" class="forgot-password">Forgot password?</a>
+        </form>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-center">© 2025, ASiX</div>
+        <div class="footer-socials">
+            <a href="#" aria-label="Instagram">
+                <img src="images/Instagram.svg" alt="Instagram">
+            </a>
+            <a href="#" aria-label="Telegram">
+                <img src="images/Telegram.svg" alt="Telegram">
+            </a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

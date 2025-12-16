@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="header-top">
+        <div class="header-icon">
+            <img src="images/image4.svg" alt="Account">
+        </div>
+        <div class="logo">
+            <img src="images/logo1.svg" alt="ASiX logo">
+        </div>
+        <div class="header-icons">
+            <div class="search">
+                <label class="search-icon">
+                    <img src="images/image11.svg" alt="Search">
+                </label>
+                <form class="search-form" action="#" method="get">
+                    <input
+                            type="search"
+                            name="q"
+                            placeholder="Search"
+                            aria-label="Search products"
+                    >
+                </form>
+            </div>
+            <img src="images/image3.svg" alt="Cart">
+        </div>
+    </div>
+
+    <nav class="navigation">
+        <a href="#">Jewelry</a>
+        <a href="#">Bags</a>
+        <a href="#">Tops</a>
+        <a href="#">Knitwear</a>
+        <a href="#">All</a>
+        <a href="#">Hoodies</a>
+        <a href="#">Bottom</a>
+        <a href="#">Accessories</a>
+        <a href="#">More+</a>
+    </nav>
+</header>
+
+<main class="profile-page">
+    <section class="profile-header">
+        <h1>Greetings, лжеДмитро</h1>
+        <p>Points: 220</p>
+        <p>Discount: 5%</p>
+    </section>
+    <div class="profile-content">
+        <nav class="profile-menu">
+            <button type="button">personal information</button>
+            <button type="button">favorites</button>
+            <button type="button">order history</button>
+            <a href="#" class="logout">log out</a>
+        </nav>
+        <div class="profile-sections">
+            <section>
+                <h2>Personal information</h2>
+                <form>
+                    <label>
+                        First name
+                        <input type="text" value="Тарас">
+                    </label>
+
+                    <label>
+                        Last name
+                        <input type="text" value="Григорович">
+                    </label>
+
+                    <label>
+                        City
+                        <input type="text" value="Шевченко">
+                    </label>
+
+                    <label>
+                        Phone
+                        <input type="tel" value="+380 (77) 777-77-77">
+                    </label>
+
+                    <label>
+                        Email
+                        <input type="email" value="test@gmail.com">
+                    </label>
+
+                    <label>
+                        <input type="checkbox" checked>
+                        Email newsletter
+                    </label>
+                </form>
+            </section>
+
+            <section>
+                <h2>Favorites</h2>
+
+                <article class="favorite-item">
+                    <img src="images/jacket1.png" alt="Puffer Jacket">
+                    <p>Puffer Jacket</p>
+                    <span>$190</span>
+                </article>
+
+                <article class="favorite-item">
+                    <img src="images/gloves.png" alt="Gloves">
+                    <p>Imperial Gloves</p>
+                    <span>$70</span>
+                </article>
+            </section>
+
+            <section>
+                <h2>Order history</h2>
+
+                <article class="order-item">
+                    <p>Order #1245</p>
+                    <p>2 items</p>
+                    <p>Total: $260</p>
+                    <p>Status: Delivered</p>
+                </article>
+
+                <article class="order-item">
+                    <p>Order #1189</p>
+                    <p>1 item</p>
+                    <p>Total: $190</p>
+                    <p>Status: Delivered</p>
+                </article>
+            </section>
+        </div>
+    </div>
+</main>
+
+<div class="login-modal">
+    <div class="login-window">
+        <div class="login-tabs">
+            <button class="active">SIGN IN</button>
+            <button>JOIN</button>
+        </div>
+        <form class="login-form">
+            <label>
+                EMAIL ADDRESS:
+                <input type="email" required>
+            </label>
+
+            <label>
+                PASSWORD:
+                <input type="password" required>
+            </label>
+
+            <button type="submit">SIGN IN</button>
+            <a href="#">Forgot password?</a>
+        </form>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-center">© 2025, ASiX</div>
+        <div class="footer-socials">
+            <a href="#" aria-label="Instagram">
+                <img src="images/Instagram.svg" alt="Instagram">
+            </a>
+            <a href="#" aria-label="Telegram">
+                <img src="images/Telegram.svg" alt="Telegram">
+            </a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
